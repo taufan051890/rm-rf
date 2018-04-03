@@ -26,22 +26,10 @@
                             <ul class="navigation clearfix">
                                 <li><a href="{{ url('/') }}">Home</a></li>
                                 <li><a href="{{ url('/about') }}">About Us</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li class="dropdown"><a href="#">Projects</a>
-                                  <ul>
-                                        <li><a href="projects.html">Projects Version 1</a></li>
-                                        <li><a href="projects-2.html">Projects Version 2</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Blog</a>
-                                  <ul>
-                                        <li><a href="blog.html">Our Blog</a></li>
-                                        <li><a href="blog-single.html">Blog Detail</a></li>
-                                        <li><a href="error-page.html">404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Portofolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
                              </ul>
                         </div>
                     </nav>

@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-  <title>rm -rf.Studio | @yield('title')</title>
+  <title>rm -rf.Studio | 404 Not Found</title>
 <!-- Stylesheets -->
 <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css')}}" rel="stylesheet">
@@ -21,39 +21,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
-<style>
-  .pricing-tabs .tab-buttons .tab-btn.active-btn {
-    background: #7ed7e2 !important;
-  }
-  .btn-style-two:hover {
-    background: #7ed7e2 !important;
-    border-color: #60b5bf !important;
-  }
-</style>
 
-<body>
+<body style="background: linear-gradient(to right, #ffffff 47%, #fbfaff 100%);">
 
 <div class="page-wrapper">
 
-    <!-- Preloader -->
-    <div class="preloader"></div>
-
-    <!-- Main Header -->
-
-    @include('layout.navbar')
-
-    @yield('content')
-
-    @include('layout.footer')
-
-    <!--End Main Footer-->
+    <section class="error-section" style="background-image:url(images/background/bg-banner.jpg);">
+      <div class="auto-container">
+          <figure class="error-image"><img src="images/resource/error-image.png" alt=""></figure>
+            <h3>Opps!! Looks like something went wrong</h3>
+            <div class="link-box"><a href="{{ url('/') }}" class="theme-btn btn-style-two">Go Home</a></div>
+        </div>
+    </section>
 
 </div>
-<!--End pagewrapper-->
-
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
-
 
 <script src="{{ asset('js/jquery.js') }}"></script>
 
@@ -67,7 +48,3 @@
 <script src="{{ asset('js/wow.js') }}"></script>
 <script src="{{ asset('js/appear.js') }}"></script>
 <script src="{{ asset('js/script.js') }}"></script>
-
-</body>
-
-</html>

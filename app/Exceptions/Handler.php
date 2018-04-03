@@ -39,6 +39,8 @@ class Handler extends ExceptionHandler
         parent::report($exception);
     }
 
+
+
     /**
      * Render an exception into an HTTP response.
      *
@@ -46,8 +48,33 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $exception
      * @return \Illuminate\Http\Response
      */
-    public function render($request, Exception $exception)
-    {
-        return parent::render($request, $exception);
-    }
+     public function render($request, Exception $exception)
+
+       {
+
+           if($this->isHttpException($exception)){
+
+               switch ($exception->getStatusCode()) {
+
+                   case 404:
+
+                       return redirect()->route('404');
+
+                       break;
+
+                   case 405:
+
+                       return redirect()->route('405');
+
+                       break;
+
+               }
+
+           }
+
+
+
+           return parent::render($request, $exception);
+
+       }
 }

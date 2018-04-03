@@ -5,7 +5,6 @@
 @endsection
 
 
-
 @section('content')
 <!--Main Banner-->
 <section class="main-banner">
@@ -300,278 +299,99 @@
 </section>
 
 <!--Pricing Style One-->
-<section class="pricing-style-one">
-  <div class="bg-icon-1 wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
+<    <section class="pricing-style-one">
+    	<div class="bg-icon-1 wow zoomInStable" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
 
-    <div class="pricing-tabs">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <!--Tables Column-->
-                <div class="title-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                    <div class="inner-box">
-                        <!--Title-->
-                        <div class="sec-title">
-                            <div class="icon"></div>
-                            <h4 class="subtitle">Pricing</h4>
-                            <h2>Not any hidden charge, Choose you pricing plan</h2>
+        <div class="pricing-tabs">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Tables Column-->
+                    <div class="title-column col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class="inner-box">
+                            <!--Title-->
+                            <div class="sec-title">
+                                <div class="icon"></div>
+                                <h4 class="subtitle">Pricing</h4>
+                                <h2>Not any hidden charge, Choose you pricing plan</h2>
+                            </div>
+                            <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches </div>
+
+                            <ul class="tab-buttons clearfix">
+                                <li class="tab-btn active-btn" data-tab="#web-tab">WEBSITE</li>
+                                <li class="tab-btn" data-tab="#mobile-tab">MOBILE</li>
+                            </ul>
                         </div>
-                        <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches </div>
-
-                        <ul class="tab-buttons clearfix">
-                            <li class="tab-btn active-btn" data-tab="#monthly-tab">Monthly</li>
-                            <li class="tab-btn" data-tab="#yearly-tab">Yearly</li>
-                        </ul>
                     </div>
-                </div>
 
-                <!--Tables Column-->
-                <div class="tables-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                    <div class="inner-box">
-                        <div class="tabs-content">
-                            <!--Tab / Active Tab-->
-                            <div class="tab active-tab" id="monthly-tab">
-                              <div class="carousel-outer">
-                                  <div class="ms-partialview-template">
-                                        <!-- price slider one -->
-                                        <div class="master-slider ms-skin-default" id="price-carousel-one">
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$96.99</div>
-                                                        <div class="plan-title">business</div>
-                                                        <div class="duration">Monthly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$76.99</div>
-                                                        <div class="plan-title">professional</div>
-                                                        <div class="duration">Monthly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$46.99</div>
-                                                        <div class="plan-title">regular</div>
-                                                        <div class="duration">Monthly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$66.99</div>
-                                                        <div class="plan-title">baby</div>
-                                                        <div class="duration">Monthly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$99.99</div>
-                                                        <div class="plan-title">offer</div>
-                                                        <div class="duration">Monthly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
+                    <!--Tables Column-->
+                    <div class="tables-column col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                        <div class="inner-box">
+                            <div class="tabs-content">
+                                <!--Tab / Active Tab-->
+                                <div class="tab" id="mobile-tab">
+                                	<div class="carousel-outer">
+                                    	<div class="ms-partialview-template">
+                                            <!-- price slider one -->
+                                            <div class="master-slider ms-skin-default" id="price-carousel-one">
+
+                                              @foreach ($PricingMobile as $priceMobile)
+                                                      <div class="ms-slide">
+                                                          <div class="price-block-one">
+                                                              <div class="col-inner">
+                                                                  <div class="price">{{ $priceMobile['type_service'] }}</div>
+                                                                  <div> <img src="{{ asset('images/Mobile-App-Design.png') }}" alt="{{ $priceMobile['plan_title'] }}" style="width: 60%;"> </div>
+                                                                  <div class="price" style="font-size: 22px;color: #46c568;">${{ $priceMobile['price'] }}</div>
+                                                                  <div class="plan-title">{{ $priceMobile['plan_title'] }}</div>
+                                                                  <div class="duration">IDR: Rp.{{ $priceMobile['idr'] }}</div>
+                                                                  <div class="link-box"><a href="#" class="theme-btn btn-style-two">Negotiation Now</a></div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                            @endforeach
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--End Monthly Tab-->
+                                <!--End Monthly Tab-->
 
-                            <!--Tab-->
-                            <div class="tab" id="yearly-tab">
-                              <div class="carousel-outer">
-                                  <div class="ms-partialview-template">
-                                        <!-- price slider one -->
-                                        <div class="master-slider ms-skin-default" id="price-carousel-two">
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$96.99</div>
-                                                        <div class="plan-title">business</div>
-                                                        <div class="duration">Yearly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$76.99</div>
-                                                        <div class="plan-title">professional</div>
-                                                        <div class="duration">Yearly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$46.99</div>
-                                                        <div class="plan-title">regular</div>
-                                                        <div class="duration">Yearly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$66.99</div>
-                                                        <div class="plan-title">baby</div>
-                                                        <div class="duration">Yearly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-slide">
-                                                <div class="price-block-one">
-                                                    <div class="col-inner">
-                                                        <div class="price">$99.99</div>
-                                                        <div class="plan-title">offer</div>
-                                                        <div class="duration">Yearly Package</div>
-                                                        <ul class="specs-list">
-                                                            <li>50GB Bandwidth</li>
-                                                            <li>Business & Financ Analysing</li>
-                                                            <li>24 hour support</li>
-                                                            <li>Customer Managemet</li>
-                                                        </ul>
-                                                        <div class="link-box"><a href="#" class="theme-btn btn-style-two">Sign up</a></div>
-                                                    </div>
-                                                </div>
+                                <!--Tab-->
+                                <div class="tab active-tab" id="web-tab">
+                                	<div class="carousel-outer">
+                                    	<div class="ms-partialview-template">
+                                            <!-- price slider one -->
+                                            <div class="master-slider ms-skin-default" id="price-carousel-two">
+
+                                          @foreach ($PricingWeb as $price)
+                                                  <div class="ms-slide">
+                                                      <div class="price-block-one">
+                                                          <div class="col-inner">
+                                                              <div class="price">{{ $price['type_service'] }}</div>
+                                                              <div> <img src="{{ asset('images/web-design.png') }}" alt="{{ $price['plan_title'] }}" style="width: 60%;"> </div>
+                                                              <div class="plan-title">{{ $price['plan_title'] }}</div>
+                                                              <div class="price" style="font-size: 22px;color: #46c568;">${{ $price['price'] }}</div>
+                                                              <div class="duration">IDR: Rp.{{ $price['idr'] }}</div>
+                                                              <div class="link-box"><a href="#" class="theme-btn btn-style-two">Negotiation Now</a></div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                         @endforeach
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--End Yearly Tab-->
+
                             </div>
-                            <!--End Yearly Tab-->
-
                         </div>
                     </div>
-                </div>
-          </div>
-        </div>
-    </div>
-    <!--End Pricings Tabs-->
-</section>
-
-<!--Sponsors Section-->
-<section class="sponsors-section">
-  <div class="auto-container">
-
-        <div class="sponsors-outer">
-            <!--Sponsors Carousel-->
-            <ul class="sponsors-carousel owl-carousel owl-theme">
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.jpg" alt=""></a></figure></li>
-                <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.jpg" alt=""></a></figure></li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-<!--End Sponsors Section-->
-
-<!--Contact Info Section-->
-<section class="contact-info-section">
-  <div class="auto-container">
-      <h2>Any Queries? Don’t Hesitate? Feel Free to Make a Call</h2>
-        <div class="info-blocks">
-          <div class="row clearfix">
-              <!--Info Block-->
-                <div class="info-block col-md-6 col-sm-6 col-xs-12">
-                  <div class="inner">
-                      <div class="icon-box">
-                          <span class="icon fa fa-envelope-o"></span>
-                        </div>
-                        <div class="text">Support@domain.com</div>
-                    </div>
-                </div>
-
-                <!--Info Block-->
-                <div class="info-block col-md-6 col-sm-6 col-xs-12">
-                  <div class="inner">
-                      <div class="icon-box">
-                          <span class="icon flaticon-phone-call"></span>
-                        </div>
-                        <div class="text">+ 1 - 234 - 5678 - 9000</div>
-                    </div>
-                </div>
-
+            	</div>
             </div>
         </div>
-    </div>
-</section>
+        <!--End Pricings Tabs-->
+    </section>
+
+
 
 @endsection

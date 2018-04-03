@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePersonalDataTable extends Migration
+class CreatePricingTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class CreatePersonalDataTable extends Migration
      */
     public function up()
     {
-        Schema::create('personal_data', function (Blueprint $table) {
+        Schema::create('pricings', function (Blueprint $table) {
             $table->increments('id');
+            $table->text('plan_title');
+            $table->text('price');
+            $table->text('idr');
+            $table->text('type_service');
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreatePersonalDataTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('personal_data');
+        Schema::dropIfExists('pricing');
     }
 }
